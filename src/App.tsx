@@ -9,18 +9,19 @@ import {
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Layout } from "./Layout";
-import jsonServerProvider from "ra-data-json-server";
+import { dataProvider } from "./dataProvider";
 // import { dataProvider } from "./dataProvider";
 import { authProvider } from "./authProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from "./components/HomePage";
 import { MyLoginPage } from "./components/MyLoginPage";
 import { CreateAccount } from "./components/CreateAccount";
-import { PostList } from "./components/Annotation/PostList";
+import { UserTaskmanagement } from "./components/UserTaskmanagement";
 import React from "react";
+import TaskHall from "./components/TaskHall";
 
 const queryClient = new QueryClient(); // 创建 QueryClient 实例
-const dataProvider = jsonServerProvider("https://jsonplaceholder.typicode.com");
+//const dataProvider = jsonServerProvider("https://jsonplaceholder.typicode.com");
 
 export const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -53,15 +54,16 @@ export const App = () => (
                 <Route path="/annotations/:id/show" element={<PostShow />} />
               </CustomRoutes> */}
               <Resource
-                name="posts"
-                options={{ label: "Annotation" }}
-                list={ListGuesser}
+                name="tasks"
+                options={{ label: "Task Management" }}
+                list={UserTaskmanagement}
                 edit={EditGuesser}
                 show={ShowGuesser}
               />
               <Resource
-                name="comments"
-                list={ListGuesser}
+                name="unclaimedtasks"
+                options={{ label: "Task Hall" }}
+                list={TaskHall}
                 edit={EditGuesser}
                 show={ShowGuesser}
               />
