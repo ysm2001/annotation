@@ -1,0 +1,204 @@
+{
+  "unclaimedtasks": [
+    {
+      "id": 1,
+      "name": "Text Classification Task",
+      "deadline": "2024-06-01",
+      "description": "Classify given news articles into various categories.",
+      "tag": "Text",
+      "payment": "150 AUD"
+    },
+    {
+      "id": 2,
+      "name": "Image Labeling Task",
+      "deadline": "2024-06-10",
+      "description": "Label objects in the provided satellite images.",
+      "tag": "Image",
+      "payment": "200 AUD"
+    },
+    {
+      "id": 3,
+      "name": "Sentiment Analysis Task",
+      "deadline": "2024-06-15",
+      "description": "Analyze social media posts and assign sentiment tags.",
+      "tag": "Text",
+      "payment": "120 AUD"
+    },
+    {
+      "id": 4,
+      "name": "Object Detection Task",
+      "deadline": "2024-06-20",
+      "description": "Identify and annotate cars in traffic camera footage.",
+      "tag": "Video",
+      "payment": "300 AUD"
+    },
+    {
+      "id": 5,
+      "name": "Entity Recognition Task",
+      "deadline": "2024-06-25",
+      "description": "Mark named entities in a set of customer reviews.",
+      "tag": "Text",
+      "payment": "180 AUD"
+    },
+    {
+      "id": 6,
+      "name": "Bounding Box Annotation Task",
+      "deadline": "2024-07-01",
+      "description": "Draw bounding boxes around animals in wildlife images.",
+      "tag": "Image",
+      "payment": "250 AUD"
+    },
+    {
+      "id": 7,
+      "name": "Speech Transcription Task",
+      "deadline": "2024-07-05",
+      "description": "Transcribe recorded customer service calls into text.",
+      "tag": "Audio",
+      "payment": "220 AUD"
+    },
+    {
+      "id": 8,
+      "name": "Pose Estimation Task",
+      "deadline": "2024-07-10",
+      "description": "Identify key body joints in dance performance videos.",
+      "tag": "Video",
+      "payment": "320 AUD"
+    },
+    {
+      "id": 9,
+      "name": "Text Categorization Task",
+      "deadline": "2024-07-15",
+      "description": "Assign the appropriate topics to academic papers.",
+      "tag": "Text",
+      "payment": "170 AUD"
+    },
+    {
+      "id": 10,
+      "name": "Audio Segmentation Task",
+      "deadline": "2024-07-20",
+      "description": "Segment podcast audio by topic or speaker.",
+      "tag": "Audio",
+      "payment": "280 AUD"
+    },
+    {
+      "id": 11,
+      "name": "Key Phrase Extraction Task",
+      "deadline": "2024-07-25",
+      "description": "Extract key phrases from technical documents.",
+      "tag": "Text",
+      "payment": "130 AUD"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "name": "Task 1",
+      "deadline": "2023-12-31",
+      "annotator": "Jane Doe",
+      "status": "In Progress",
+      "description": "Classify different text documents based on sentiment",
+      "tag": "Text Classification",
+      "payment": "120 AUD"
+    },
+    {
+      "id": 1,
+      "name": "Task 2",
+      "deadline": "2024-01-15",
+      "annotator": "John Smith",
+      "status": "Pending",
+      "description": "Annotate images of street scenes for vehicle detection",
+      "tag": "Image Annotation",
+      "payment": "150 AUD"
+    },
+    {
+      "id": 2,
+      "name": "Task 3",
+      "deadline": "2024-02-01",
+      "annotator": "Emily Johnson",
+      "status": "Completed",
+      "description": "Label regions of interest in medical images",
+      "tag": "Medical Image Annotation",
+      "payment": "180 AUD"
+    },
+    {
+      "id": 3,
+      "name": "Task 4",
+      "deadline": "2024-02-15",
+      "annotator": "Michael Brown",
+      "status": "Pending",
+      "description": "Tag named entities in historical texts",
+      "tag": "Named Entity Recognition",
+      "payment": "140 AUD"
+    },
+    {
+      "id": 4,
+      "name": "Task 5",
+      "deadline": "2024-03-01",
+      "annotator": "Sarah Lee",
+      "status": "In Progress",
+      "description": "Categorize audio clips by language and speaker characteristics",
+      "tag": "Audio Classification",
+      "payment": "160 AUD"
+    },
+    {
+      "id": 5,
+      "name": "Task 6",
+      "deadline": "2024-03-10",
+      "annotator": "David Wilson",
+      "status": "Completed",
+      "description": "Identify objects in satellite images for land use analysis",
+      "tag": "Satellite Image Annotation",
+      "payment": "175 AUD"
+    },
+    {
+      "id": 6,
+      "name": "Task 7",
+      "deadline": "2024-03-25",
+      "annotator": "Laura Adams",
+      "status": "Pending",
+      "description": "Classify different types of customer reviews",
+      "tag": "Review Classification",
+      "payment": "130 AUD"
+    },
+    {
+      "id": 7,
+      "name": "Task 8",
+      "deadline": "2024-04-05",
+      "annotator": "Chris Miller",
+      "status": "In Progress",
+      "description": "Segment images of plants for health analysis",
+      "tag": "Plant Image Segmentation",
+      "payment": "145 AUD"
+    },
+    {
+      "id": 8,
+      "name": "Task 9",
+      "deadline": "2024-04-20",
+      "annotator": "Olivia Garcia",
+      "status": "Pending",
+      "description": "Classify customer support tickets by urgency",
+      "tag": "Ticket Classification",
+      "payment": "125 AUD"
+    },
+    {
+      "id": 9,
+      "name": "Task 10",
+      "deadline": "2024-05-01",
+      "annotator": "James Martinez",
+      "status": "Completed",
+      "description": "Annotate videos for action recognition",
+      "tag": "Video Action Annotation",
+      "payment": "200 AUD"
+    },
+    {
+      "id": 10,
+      "name": "Task 11",
+      "deadline": "2024-05-31",
+      "annotator": "James Martinez",
+      "status": "Completed",
+      "description": "Tag images of animals for species identification",
+      "tag": "Species Identification",
+      "payment": "150 AUD"
+    }
+  ]
+}
